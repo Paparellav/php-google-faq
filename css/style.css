@@ -9,9 +9,49 @@ html {
   font-size: 95%;
 }
 
+header {
+  width: 100%;
+  height: 115px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.logo {
+  display: flex;
+  padding-left: 1.8rem;
+}
+
+.logo img {
+  width: 90px;
+}
+
+.logo h2 {
+  font-weight: 400;
+  position: relative;
+  top: 15px;
+  left: 3px;
+  color: #616369;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  margin: 0 1rem;
+  font-weight: 600;
+  color: #616369;
+}
+
+#blue {
+  border-bottom: 3px solid #4675d9;
+  padding-bottom: 0.4rem;
+  color: #4675d9;
+}
+
 .container {
-  width: 70%;
-  margin: 2rem auto;
+  width: 65%;
+  margin: 6rem auto;
 }
 
 h2 {
@@ -31,6 +71,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #4675d9;
 }
 
 ol {

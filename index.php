@@ -66,6 +66,21 @@ $faq = [
 </head>
 
 <body>
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="logo-google">
+      <h2>Privacy e termini</h3>
+    </div>
+    <nav class="nav">
+      <ul>
+        <li>Introduzione</li>
+        <li>Norme sulla privacy</li>
+        <li>Termini di servizio</li>
+        <li>Tecnologie</li>
+        <li id="blue">Domande frequenti</li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <div class="container">
       <?php foreach ($faq as $value) { ?>
