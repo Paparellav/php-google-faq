@@ -89,7 +89,26 @@ $faq = [
       <?php } ?>
     </div>
   </main>
-
+  <footer>
+    <div class="footer">
+      <div>
+        <a href="">
+          Google - Tutto su Google - Privacy - Termini
+        </a>
+      </div>
+      <select name="languages" id="languages">
+        <option value="english">Inglese</option>
+        <option value="mandarin">Mandarino</option>
+        <option value="hindi">Hindi</option>
+        <option value="espanol">Spagnolo</option>
+        <option value="arab">Arabo</option>
+        <option value="bengales">Bengalese</option>
+        <option value="francois">Francese</option>
+        <option value="russian">Russo</option>
+        <option value="italian">Italiano</option>
+      </select>
+    </div>
+  </footer>
 </body>
 
 </html>
